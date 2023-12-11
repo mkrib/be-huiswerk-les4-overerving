@@ -7,12 +7,23 @@ public class FirePokemon extends Pokemon{
         this.accuracy = accuracy;
     }
 
-//    Hier moeten nog 2 methodes komen
     public void thunderPunch() {
-        System.out.println(getName() + " is attacking you with a thunder punch");
+        System.out.println(getName() + " is doing a thunder punch");
     }
     public void solarBeam() {
-        System.out.println(getName() + " is attacking you with a solar beam");
+        System.out.println(getName() + " is sending a solar beam");
+    }
+
+    public void printAttack() {
+        System.out.println(getName() + " has attack level: " + getAttack());
+    }
+
+    @Override
+    public String toString() {
+        return "FirePokemon{" +
+                "attack=" + attack +
+                ", accuracy=" + accuracy +
+                '}';
     }
 
     public int getAttack() {

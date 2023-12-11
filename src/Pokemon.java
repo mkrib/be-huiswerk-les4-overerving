@@ -7,8 +7,6 @@ public class Pokemon {
         this.food = food;
     }
 
-    // Hier moeten nog 2 methodes komen
-
     public void eats() {
         System.out.println(getName() + " is eating " + getFood());
     }

@@ -8,7 +8,21 @@ public class GrassPokemon extends Pokemon{
         this.weight = weight;
     }
 
-//    Hier moeten nog 2 methodes komen
+    public void printHeightWeight() {
+        System.out.println(getName() + " weighs " + getWeight() + " and is " + getHeight() + " tall");
+    }
+
+    public void leechSeed() {
+        System.out.println(getName() + " is throwing a leech seed");
+    }
+
+    @Override
+    public String toString() {
+        return "GrassPokemon{" +
+                "height=" + height +
+                ", weight=" + weight +
+                '}';
+    }
 
     public double getHeight() {
         return height;

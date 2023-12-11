@@ -7,12 +7,18 @@ public class WaterPokemon extends Pokemon{
         this.defence = defence;
     }
 
-//    Hier moeten nog 2 methodes komen
-
     public void speaks(){
         System.out.println(getName() + " says: " + getSound());
     }
 
+    public void printDefence() {
+        System.out.println(getName() + " has defence level " + getDefence());
+    }
+
+    @Override
+    public void eats() {
+        super.eats();
+    }
 
     public String getSound() {
         return sound;

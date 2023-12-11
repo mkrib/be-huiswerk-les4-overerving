@@ -9,6 +9,14 @@ public class ElectricPokemon extends Pokemon{
         this.hp = hp;
     }
 
+    public void levelUp() {
+        System.out.println("Good job! " + getName() + " has now reached level " + (getLevel() + 1));
+    }
+
+    public void scratch() {
+        System.out.println(getName() + " scratches ");
+    }
+
     @Override
     public String toString() {
         return "ElectricPokemon{" +
