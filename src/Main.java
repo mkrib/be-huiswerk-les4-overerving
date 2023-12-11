@@ -8,17 +8,24 @@ public class Main {
         firePokemon.printAttack();
         firePokemon.solarBeam();
         firePokemon.thunderPunch();
+        System.out.println(" ");
+
         waterPokemon.introduce();
         waterPokemon.printDefence();
         waterPokemon.speaks();
         waterPokemon.eats();
+        System.out.println(" ");
+
         grassPokemon.introduce();
         grassPokemon.printHeightWeight();
         grassPokemon.leechSeed();
+        System.out.println(" ");
+
         electricPokemon.introduce();
         electricPokemon.eats();
         electricPokemon.scratch();
         electricPokemon.levelUp();
+        System.out.println(" ");
 
     }
 }

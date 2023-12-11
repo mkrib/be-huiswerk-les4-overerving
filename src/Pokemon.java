@@ -15,12 +15,10 @@ public class Pokemon {
         System.out.println("Hi, my name is " + getName());
     }
 
-    //    Getter moet een returnwaarde hebben
     public String getName(){
         return name;
     }
 
-//    Setter hoeft niets te returnen, dus void. Wel aangeven welke waarde de setter gaat ontvangen als parameter (in dit geval name).
     public void setName(String name){
         if (name != null) {
             this.name = name;
